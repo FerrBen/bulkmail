@@ -7,8 +7,8 @@ class Header extends Component {
     return (
       
       <nav>
-      <div class="nav-wrapper" >
-        <a href="#" class="brand-logo">E-Bulky</a>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Bulk Maily</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <a>Login with Google</a>

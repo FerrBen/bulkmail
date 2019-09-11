@@ -29,3 +29,11 @@ nav a {
 .btn:hover {
   background-color: rgb(1, 59, 110);
 }
+
+.payments {
+  margin: 0px 10px;
+}
+
+.credits {
+  margin: 0px 10px;
+}

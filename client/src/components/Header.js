@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Payments from './Payments';
+import logo from '../css/logo.png';
 import '../css/header.css';
 
 class Header extends Component {
@@ -12,7 +13,7 @@ class Header extends Component {
       case false:
         return (
           <li>
-            <a href='/auth/google'>Login with Google</a>
+            <a href='/auth/google'>Login</a>
           </li>
         );
       default:
@@ -36,9 +37,9 @@ class Header extends Component {
         <div className='nav-wrapper'>
           <Link
             to={this.props.auth ? '/surveys' : '/'}
-            className='left brand-logo'
+            className='center brand-logo'
           >
-            EZ Mail
+            <img className="logo" src={logo} alt="Logo" />
           </Link>
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
             {this.renderContent()}

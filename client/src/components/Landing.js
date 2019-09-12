@@ -4,8 +4,8 @@ import '../css/landing.css';
 const Landing = () => {
   return (
     <div className='landing'>
-      <h1>EZ-Mail</h1>
-      Collect feedback from your users!
+      <h1>Get better results with Meta Mailer</h1>
+      <p>Collect your feedback from users and increase your conversion rate today!</p>
     </div>
   );
 };

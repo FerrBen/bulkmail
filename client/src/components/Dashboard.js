@@ -28,6 +28,11 @@ export default function Dashboard() {
         </div>
       </div>
     </div>
+    <div className="fixed-action-btn">
+      <a className="btn-floating btn-large blue">
+        <i className="material-icons">add</i>
+      </a>
+    </div>
       </div>
   )
 }

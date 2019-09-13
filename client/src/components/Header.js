@@ -37,7 +37,7 @@ class Header extends Component {
         <div className='nav-wrapper'>
           <Link
             to={this.props.auth ? '/surveys' : '/'}
-            className='center brand-logo'
+            className='brand-logo'
           >
             <img className="logo" src={logo} alt="Logo" />
           </Link>

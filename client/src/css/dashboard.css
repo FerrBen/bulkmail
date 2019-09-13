@@ -1,15 +1,11 @@
-.container {
-  text-align: center;
-}
 
 .material-icons {
   background-color: rgb(1, 76, 141);
-  
 }
 
-.fixed-action-btn{
-height: 100px;
-width: 100px;
+.fixed-action-btn {
+  height: 100px;
+  width: 100px;
 }
 
 .btn-large i {

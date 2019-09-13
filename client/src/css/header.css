@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,14 +12,10 @@ nav {
 nav a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
-
-.brand-logo {
-  margin: 0px 10px;
 }
 
 .btn {
@@ -42,5 +37,8 @@ nav a {
 .logo {
   margin: 10px 0px;
   height: 50px;
+}
 
+.brand-logo {
+  margin-left: 10px;
 }
